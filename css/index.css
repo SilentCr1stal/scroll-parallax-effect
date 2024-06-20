@@ -1,0 +1,39 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --index: calc(1vw + 1vh);
+  --color-header: #f4efec;
+  --color-text: #cdc6c3;
+
+}
+@font-face {
+  font-family: raleway-font;
+  src: url('../fonts/raleway-regular.woff2');
+}
+@font-face {
+  font-family: outfit-font;
+  src: url('../fonts/outfit-regular.woff2');
+}
+body {
+  background-image: url('../img/bg.jpg');
+  background-size: 50px;
+  color: #fafafa;
+  font-family: raleway-font;
+  overflow: hidden;
+}
+.hero-section {
+
+}
+.hero {
+  position: absolute;
+  width: calc(var(--index) * 37);
+  left: 37vw;
+  top: 8vh;
+}
+.container {
+  padding: 0 10vw
+}
+
