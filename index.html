@@ -5,57 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web site with animation scroll</title>
     <link rel="stylesheet" href="./css/index.css" />
-    <script src="./js/index.js" defer></script>
     <script src="./libs/gsap/gsap.min.js" defer></script>
     <script src="./libs/gsap/ScrollSmoother.min.js" defer></script>
     <script src="./libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="./js/index.js" defer></script>
   </head>
   <body>
     <div class="wrapper">
-      <header class="hero-section">
-        <img src="./img/hero.png" alt="" class="hero" />
-        <div class="container">
-          <div class="main-header">
-            <h1 class="main-header__text">creative scroll</h1>
+      <div class="content">
+        <header class="hero-section">
+          <img src="./img/hero.png" alt="" class="hero" data-speed=".6" />
+          <div class="container">
+            <div data-speed=".75" class="main-header">
+              <h1 class="main-header__text">creative scroll</h1>
+            </div>
           </div>
-        </div>
-      </header>
-      <section class="portfolio">
-        <div class="container">
-          <main class="gallery">
-            <div class="gallery__left">
-              <img class="gallery__item" src="./img/work/1.jpg" alt="" />
-              <img class="gallery__item" src="./img/work/2.jpg" alt="" />
-
-              <div class="text-block gallery__item">
-                <h2 class="text-block__header">
-                  Creative floating scroll with amazing parallax effect
-                </h2>
-                <p class="text-block__paragraph">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit, sed
-                  do eiusmod tempor amount scrolling.
-                </p>
+        </header>
+        <section class="portfolio">
+          <div class="container">
+            <main class="gallery">
+              <div class="gallery__left">
+                <img class="gallery__item" src="./img/work/1.jpg" alt="" />
+                <img class="gallery__item" src="./img/work/2.jpg" alt="" />
+  
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__header">
+                    Creative floating scroll with amazing parallax effect
+                  </h2>
+                  <p class="text-block__paragraph">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit, sed
+                    do eiusmod tempor amount scrolling.
+                  </p>
+                </div>
+  
+                <img src="./img/work/6.jpg" alt="" class="gallery__item">
               </div>
-
-              <img src="./img/work/6.jpg" alt="" class="gallery__item">
-            </div>
-            <div class="gallery__right">
-              <div class="text-block gallery__item">
-                <h2 class="text-block__header">
-                  Creative floating scroll with amazing parallax effect
-                </h2>
-                <p class="text-block__paragraph">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit, sed
-                  do eiusmod tempor amount scrolling.
-                </p>
+              <div class="gallery__right">
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__header">
+                    Creative floating scroll with amazing parallax effect
+                  </h2>
+                  <p class="text-block__paragraph">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit, sed
+                    do eiusmod tempor amount scrolling.
+                  </p>
+                </div>
+                <img class="gallery__item" src="./img/work/3.jpg" alt="">
+                <img class="gallery__item" src="./img/work/4.jpg" alt="">
+                <img class="gallery__item" src="./img/work/5.jpg" alt="">
               </div>
-              <img class="gallery__item" src="./img/work/3.jpg" alt="">
-              <img class="gallery__item" src="./img/work/4.jpg" alt="">
-              <img class="gallery__item" src="./img/work/5.jpg" alt="">
-            </div>
-          </main>
-        </div>
-      </section>
+            </main>
+          </div>
+        </section>
+      </div>
     </div>
   </body>
 </html>
