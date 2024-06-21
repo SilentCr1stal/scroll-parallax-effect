@@ -22,7 +22,7 @@ body {
   background-size: 50px;
   color: #fafafa;
   font-family: raleway-font;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .hero-section {
 
@@ -34,6 +34,14 @@ body {
   top: 8vh;
 }
 .container {
-  padding: 0 10vw
+  padding: 0 7vw
+}
+.main-header__text {
+  font-size: calc(var(--index) * 8);
+  width: min-content;
+  position: absolute;
+  bottom: 12vh;
+  text-shadow: 0px 0px 20px #fafafa;
+  line-height: .9;
 }
 
